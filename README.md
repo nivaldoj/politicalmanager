@@ -1,4 +1,4 @@
-
+![alt text](https://github.com/thyagomaia/politicalmanager/blob/master/boneco.giflogomarca.gif)
 
 # Political Manager
 
