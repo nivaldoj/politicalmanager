@@ -1,4 +1,4 @@
-# PoliticalManager
+# Political Manager
 
 O Political Manager é um aplicativo desenvolvido pela equipe de mesmo nome para o HackFest 2017, uma maratona de programação com foco principal no combate a corrupção.
 
@@ -18,7 +18,7 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 - Thyago Maia (thyagomaia@gmail.com);
 - Nivaldo Carvalho (nivaldo_j@outlook.com);
-- André Augusto (andraams13@gmail.com);
+- André Augusto (andreams13@gmail.com);
 - Claudio Gomes (claudiogsn2@gmail.com);
 - Emerson Diego (diegowebby@gmail.com);
 - David Gaudêncio (davidgf_jp@hotmail.com);
