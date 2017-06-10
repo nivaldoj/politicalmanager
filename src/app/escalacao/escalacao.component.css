@@ -1,0 +1,24 @@
+.redondo{
+  width: 70px;
+  height: 70px;
+  border-radius:50%;
+}
+
+.redondoNaoTanto{
+  width: 50px;
+  height: 50px;
+  border-radius:80%;
+}
+
+.imgParlamentarEscalado{
+  cursor:pointer;
+}
+
+.imgParlamentarEscalado2 {
+cursor:help;
+}
+
+.imgParlamentarEscalado3 {
+cursor:move;
+}
+
