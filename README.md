@@ -1,3 +1,5 @@
+
+
 # Political Manager
 
 O Political Manager é um aplicativo desenvolvido pela equipe de mesmo nome para o HackFest 2017, uma maratona de programação com foco principal no combate a corrupção.
