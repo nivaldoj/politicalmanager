@@ -13,3 +13,13 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 - Acesse a pasta da app e execute o comando npm install;
 - Em seguida, execute o comando npm start;
 - Por fim, acesse: http://localhost:4200/
+
+## Equipe Political Manager
+
+- Thyago Maia (thyagomaia@gmail.com);
+- Nivaldo Carvalho (nivaldo_j@outlook.com);
+- André Augusto (andraams13@gmail.com);
+- Claudio Gomes (claudiogsn2@gmail.com);
+- Emerson Diego (diegowebby@gmail.com);
+- David Gaudêncio (davidgf_jp@hotmail.com);
+- Mykael Maia (mykaelmaia69@gmail.com);
