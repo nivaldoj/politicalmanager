@@ -1,5 +1,9 @@
 # PoliticalManager
 
+O Political Manager é um aplicativo desenvolvido pela equipe de mesmo nome para o HackFest 2017, uma maratona de programação com foco principal no combate a corrupção.
+
+O aplicativo é inspirado em jogos no estilo Fantasy Game, como o Cartola FC do globoesporte.com. Porém, ao contrário da escalação
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
 ## Development server
