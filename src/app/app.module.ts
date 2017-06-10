@@ -7,21 +7,21 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { EscalacaoComponent } from './escalacao/escalacao.component';
 import { PontuacaoComponent } from './pontuacao/pontuacao.component';
-import { AngularFireModule } from 'angularfire2';
+//import { AngularFireModule } from 'angularfire2';
 
 
 
 import { HomeComponent } from './home/home.component';
 
 
-export const firebaseConfig = {
+/*export const firebaseConfig = {
   apiKey: 'AIzaSyC1X_gsSZA50eU9UTAvSVZM7IBG_hXfNKE',
   authDomain: 'memorygame-dcf75.firebaseapp.com',
   databaseURL: 'https://memorygame-dcf75.firebaseio.com',
   storageBucket: 'memorygame-dcf75.appspot.com',
   messagingSenderId: '141561373290',
   projectId: 'memorygame-dcf75',
-};
+};*/
 
 
 @NgModule({
@@ -35,7 +35,7 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     HttpModule,
-     AngularFireModule.initializeApp(firebaseConfig),
+    // AngularFireModule.initializeApp(firebaseConfig),
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
