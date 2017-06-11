@@ -26,7 +26,7 @@
       <option *ngFor="let uf of ufs" [ngValue]="uf">{{uf}}</option>
     </select>
 
-            <button (click)="confirmarEscalacao()" class="btn btn-primary">Confirmar Time</button>
+            <button (click)="confirmarEscalacao()" class="btn btn-primary" [disabled]="time.length < 5">Confirmar Time</button>
           </p>
 
       </form>
