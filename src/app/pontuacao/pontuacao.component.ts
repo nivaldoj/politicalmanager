@@ -88,7 +88,7 @@ export class PontuacaoComponent implements OnInit {
           // if(politico){
           // this.firebaseService.inserirPontuacaoPolitico(politico);
           //  }
-          let jaExiste: boolean = false;
+          //let jaExiste: boolean = false;
 
           //  for (i = 0; i < this.listaPoliticosJaSalvos.length; i++) {
           //  if (this.listaPoliticosJaSalvos[i].id === politico.id) {
@@ -99,7 +99,7 @@ export class PontuacaoComponent implements OnInit {
 
           // if(!jaExiste){
           //    console.log("passou por aqui, inseriu " + politico.nome);
-          this.firebaseService.inserirPontuacaoPolitico(politico);
+        //  this.firebaseService.inserirPontuacaoPolitico(politico);
           // }
 
 
