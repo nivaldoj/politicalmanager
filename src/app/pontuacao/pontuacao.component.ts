@@ -42,8 +42,10 @@ export class PontuacaoComponent implements OnInit {
 
     // this.firebaseService.getListaPoliticosJaSalvos().subscribe(listaPoliticosJaSalvos => {
     // console.log(listaPontuacao);
-    //  this.listaPoliticosJaSalvos = listaPoliticosJaSalvos;
-    // }, error=>{
+     // this.listaPoliticosJaSalvos = listaPoliticosJaSalvos;
+    // });
+
+     //, error=>{
     //  console.log(error);
     // });
 

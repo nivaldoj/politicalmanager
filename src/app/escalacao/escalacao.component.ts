@@ -38,7 +38,7 @@ export class EscalacaoComponent implements OnInit {
 
     this.partidos = ['PDT', 'PMDB', 'PSD', 'PT', 'PV'];
 
-    this.ufs = ['PB', 'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RS', 'RO', 'RS', 'SC', 'SP', 'SE', 'TO'];
+    this.ufs = ['PB', 'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RS', 'RO', 'RS', 'SC', 'SE','SP', 'TO'];
 
     this.formacoes = ['4-1', '1-4', '2-3', '3-2'];
 

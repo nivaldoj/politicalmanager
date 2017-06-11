@@ -4,7 +4,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178957.jpg",
 		"nomeParlamentar": "ABEL MESQUITA JR.",
 		"nome": "ABEL SALVADOR MESQUITA JUNIOR",
-		"id": 178957,
+		"id":178957,
 		"partido": "DEM"
 	}, {
 		"uf": "CE",
@@ -12,7 +12,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178864.jpg",
 		"nomeParlamentar": "ADAIL CARNEIRO",
 		"nome": "JOSE ADAIL CARNEIRO SILVA",
-		"id": 178864,
+		"id":178864,
 		"partido": "PP"
 	}, {
 		"uf": "PE",
@@ -20,7 +20,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178914.jpg",
 		"nomeParlamentar": "ADALBERTO CAVALCANTI",
 		"nome": "ADALBERTO CAVALCANTI RODRIGUES",
-		"id": 178914,
+		"id":178914,
 		"partido": "PTB"
 	}, {
 		"uf": "MG",
@@ -28,7 +28,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178890.jpg",
 		"nomeParlamentar": "ADELMO CARNEIRO LEÃO",
 		"nome": "ADELMO CARNEIRO LEAO",
-		"id": 178890,
+		"id":178890,
 		"partido": "PT"
 	}, {
 		"uf": "SE",
@@ -36,7 +36,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178968.jpg",
 		"nomeParlamentar": "ADELSON BARRETO",
 		"nome": "ADELSON BARRETO DOS SANTOS",
-		"id": 178968,
+		"id":178968,
 		"partido": "PR"
 	}, {
 		"uf": "MG",
@@ -44,7 +44,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/133374.jpg",
 		"nomeParlamentar": "ADEMIR CAMILO",
 		"nome": "ADEMIR CAMILO PRATES RODRIGUES",
-		"id": 133374,
+		"id":133374,
 		"partido": "PODE"
 	}, {
 		"uf": "MT",
@@ -52,7 +52,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178903.jpg",
 		"nomeParlamentar": "ADILTON SACHETTI",
 		"nome": "ADILTON DOMINGOS SACHETTI",
-		"id": 178903,
+		"id":178903,
 		"partido": "PSB"
 	}, {
 		"uf": "MG",
@@ -60,7 +60,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/141372.jpg",
 		"nomeParlamentar": "AELTON FREITAS",
 		"nome": "AELTON JOSÉ DE FREITAS",
-		"id": 141372,
+		"id":141372,
 		"partido": "PR"
 	}, {
 		"uf": "BA",
@@ -68,7 +68,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160508.jpg",
 		"nomeParlamentar": "AFONSO FLORENCE",
 		"nome": "AFONSO BANDEIRA FLORENCE",
-		"id": 160508,
+		"id":160508,
 		"partido": "PT"
 	}, {
 		"uf": "RS",
@@ -76,7 +76,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/136811.jpg",
 		"nomeParlamentar": "AFONSO HAMM",
 		"nome": "JOSÉ ALFONSO EBERT HAMM",
-		"id": 136811,
+		"id":136811,
 		"partido": "PP"
 	}, {
 		"uf": "RS",
@@ -84,7 +84,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178835.jpg",
 		"nomeParlamentar": "AFONSO MOTTA",
 		"nome": "AFONSO ANTUNES DA MOTTA",
-		"id": 178835,
+		"id":178835,
 		"partido": "PDT"
 	}, {
 		"uf": "PB",
@@ -92,7 +92,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160527.jpg",
 		"nomeParlamentar": "AGUINALDO RIBEIRO",
 		"nome": "AGUINALDO VELLOSO BORGES RIBEIRO",
-		"id": 160527,
+		"id":160527,
 		"partido": "PP"
 	}, {
 		"uf": "AC",
@@ -100,7 +100,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178836.jpg",
 		"nomeParlamentar": "ALAN RICK",
 		"nome": "ALAN RICK MIRANDA",
-		"id": 178836,
+		"id":178836,
 		"partido": "PRB"
 	}, {
 		"uf": "MA",
@@ -108,7 +108,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160582.jpg",
 		"nomeParlamentar": "ALBERTO FILHO",
 		"nome": "JOSÉ ALBERTO OLIVEIRA VELOSO FILHO",
-		"id": 160582,
+		"id":160582,
 		"partido": "PMDB"
 	}, {
 		"uf": "DF",
@@ -116,7 +116,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73579.jpg",
 		"nomeParlamentar": "ALBERTO FRAGA",
 		"nome": "JOÃO ALBERTO FRAGA SILVA",
-		"id": 73579,
+		"id":73579,
 		"partido": "DEM"
 	}, {
 		"uf": "RS",
@@ -124,7 +124,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160559.jpg",
 		"nomeParlamentar": "ALCEU MOREIRA",
 		"nome": "ALCEU MOREIRA DA SILVA",
-		"id": 160559,
+		"id":160559,
 		"partido": "PMDB"
 	}, {
 		"uf": "RJ",
@@ -132,7 +132,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160511.jpg",
 		"nomeParlamentar": "ALESSANDRO MOLON",
 		"nome": "ALESSANDRO LUCCIOLA MOLON",
-		"id": 160511,
+		"id":160511,
 		"partido": "REDE"
 	}, {
 		"uf": "PR",
@@ -140,7 +140,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73458.jpg",
 		"nomeParlamentar": "ALEX CANZIANI",
 		"nome": "ALEX CANZIANI SILVEIRA",
-		"id": 73458,
+		"id":73458,
 		"partido": "PTB"
 	}, {
 		"uf": "SP",
@@ -148,7 +148,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178972.jpg",
 		"nomeParlamentar": "ALEX MANENTE",
 		"nome": "ALEX SPINELLI MANENTE",
-		"id": 178972,
+		"id":178972,
 		"partido": "PPS"
 	}, {
 		"uf": "GO",
@@ -156,7 +156,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178875.jpg",
 		"nomeParlamentar": "ALEXANDRE BALDY",
 		"nome": "ALEXANDRE BALDY DE SANT'ANNA BRAGA",
-		"id": 178875,
+		"id":178875,
 		"partido": "PODE"
 	}, {
 		"uf": "SP",
@@ -164,7 +164,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160545.jpg",
 		"nomeParlamentar": "ALEXANDRE LEITE",
 		"nome": "ALEXANDRE LEITE DA SILVA",
-		"id": 160545,
+		"id":160545,
 		"partido": "DEM"
 	}, {
 		"uf": "RJ",
@@ -172,7 +172,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178833.jpg",
 		"nomeParlamentar": "ALEXANDRE SERFIOTIS",
 		"nome": "ALEXANDRE AUGUSTUS SERFIOTIS",
-		"id": 178833,
+		"id":178833,
 		"partido": "PMDB"
 	}, {
 		"uf": "RJ",
@@ -180,7 +180,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178936.jpg",
 		"nomeParlamentar": "ALEXANDRE VALLE",
 		"nome": "ALEXANDRE VALLE CARDOSO",
-		"id": 178936,
+		"id":178936,
 		"partido": "PR"
 	}, {
 		"uf": "PR",
@@ -188,7 +188,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/141454.jpg",
 		"nomeParlamentar": "ALFREDO KAEFER",
 		"nome": "JACOB ALFREDO STOFFELS KAEFER",
-		"id": 141454,
+		"id":141454,
 		"partido": "PSL"
 	}, {
 		"uf": "AM",
@@ -196,7 +196,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178846.jpg",
 		"nomeParlamentar": "ALFREDO NASCIMENTO",
 		"nome": "ALFREDO PEREIRA DO NASCIMENTO",
-		"id": 178846,
+		"id":178846,
 		"partido": "PR"
 	}, {
 		"uf": "BA",
@@ -204,7 +204,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/74057.jpg",
 		"nomeParlamentar": "ALICE PORTUGAL",
 		"nome": "ALICE MAZZUCO PORTUGAL",
-		"id": 74057,
+		"id":74057,
 		"partido": "PCdoB"
 	}, {
 		"uf": "PR",
@@ -212,7 +212,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178927.jpg",
 		"nomeParlamentar": "ALIEL MACHADO",
 		"nome": "ALIEL MACHADO BARK",
-		"id": 178927,
+		"id":178927,
 		"partido": "REDE"
 	}, {
 		"uf": "RJ",
@@ -220,7 +220,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178937.jpg",
 		"nomeParlamentar": "ALTINEU CÔRTES",
 		"nome": "ALTINEU CÔRTES FREITAS COUTINHO",
-		"id": 178937,
+		"id":178937,
 		"partido": "PMDB"
 	}, {
 		"uf": "MA",
@@ -228,7 +228,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178881.jpg",
 		"nomeParlamentar": "ALUISIO MENDES",
 		"nome": "ALUISIO GUIMARAES MENDES FILHO",
-		"id": 178881,
+		"id":178881,
 		"partido": "PODE"
 	}, {
 		"uf": "SP",
@@ -236,7 +236,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178973.jpg",
 		"nomeParlamentar": "ANA PERUGINI",
 		"nome": "ANA LUCIA LIPPAUS PERUGINI",
-		"id": 178973,
+		"id":178973,
 		"partido": "PT"
 	}, {
 		"uf": "SE",
@@ -244,7 +244,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160543.jpg",
 		"nomeParlamentar": "ANDRE MOURA",
 		"nome": "ANDRÉ LUIS DANTAS FERREIRA",
-		"id": 160543,
+		"id":160543,
 		"partido": "PSC"
 	}, {
 		"uf": "SP",
@@ -252,7 +252,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178974.jpg",
 		"nomeParlamentar": "ANDRES SANCHEZ",
 		"nome": "ANDRES NAVARRO SANCHEZ",
-		"id": 178974,
+		"id":178974,
 		"partido": "PT"
 	}, {
 		"uf": "AP",
@@ -260,7 +260,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178831.jpg",
 		"nomeParlamentar": "ANDRÉ ABDON",
 		"nome": "ANDRE DOS SANTOS ABDON",
-		"id": 178831,
+		"id":178831,
 		"partido": "PP"
 	}, {
 		"uf": "PB",
@@ -268,7 +268,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/195143.jpg",
 		"nomeParlamentar": "ANDRÉ AMARAL",
 		"nome": "ANDRÉ AUGUSTO CASTRO DO AMARAL FILHO",
-		"id": 195143,
+		"id":195143,
 		"partido": "PMDB"
 	}, {
 		"uf": "PE",
@@ -276,7 +276,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/74471.jpg",
 		"nomeParlamentar": "ANDRÉ DE PAULA",
 		"nome": "ANDRÉ CARLOS ALVES DE PAULA FILHO",
-		"id": 74471,
+		"id":74471,
 		"partido": "PSD"
 	}, {
 		"uf": "CE",
@@ -284,7 +284,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/133439.jpg",
 		"nomeParlamentar": "ANDRÉ FIGUEIREDO",
 		"nome": "ANDRÉ PEIXOTO FIGUEIREDO LIMA",
-		"id": 133439,
+		"id":133439,
 		"partido": "PDT"
 	}, {
 		"uf": "MA",
@@ -292,7 +292,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178882.jpg",
 		"nomeParlamentar": "ANDRÉ FUFUCA",
 		"nome": "ANDRE LUIZ CARVALHO RIBEIRO",
-		"id": 178882,
+		"id":178882,
 		"partido": "PP"
   }, {
 		"uf": "AC",
@@ -300,7 +300,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178837.jpg",
 		"nomeParlamentar": "ANGELIM",
 		"nome": "RAIMUNDO ANGELIM VASCONCELOS",
-		"id": 178837,
+		"id":178837,
 		"partido": "PT"
 	}, {
 		"uf": "BA",
@@ -308,7 +308,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160553.jpg",
 		"nomeParlamentar": "ANTONIO BRITO",
 		"nome": "ANTONIO LUIZ PARANHOS RIBEIRO LEITE DE BRITO",
-		"id": 160553,
+		"id":160553,
 		"partido": "PSD"
 	}, {
 		"uf": "SP",
@@ -316,7 +316,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/141383.jpg",
 		"nomeParlamentar": "ANTONIO BULHÕES",
 		"nome": "ANTONIO CARLOS MARTINS DE BULHÕES",
-		"id": 141383,
+		"id":141383,
 		"partido": "PRB"
 	}, {
 		"uf": "SP",
@@ -324,7 +324,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73584.jpg",
 		"nomeParlamentar": "ANTONIO CARLOS MENDES THAME",
 		"nome": "ANTONIO CARLOS DE MENDES THAME",
-		"id": 73584,
+		"id":73584,
 		"partido": "PV"
 	}, {
 		"uf": "RN",
@@ -332,7 +332,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/178950.jpg",
 		"nomeParlamentar": "ANTÔNIO JÁCOME",
 		"nome": "ANTONIO JACOME DE LIMA JUNIOR",
-		"id": 178950,
+		"id":178950,
 		"partido": "PODE"
 	}, {
 		"uf": "CE",
@@ -340,7 +340,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/74212.jpg",
 		"nomeParlamentar": "ANÍBAL GOMES",
 		"nome": "ANÍBAL FERREIRA GOMES",
-		"id": 74212,
+		"id":74212,
 		"partido": "PMDB"
 	}, {
 		"uf": "CE",
@@ -348,7 +348,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/74103.jpg",
 		"nomeParlamentar": "ARIOSTO HOLANDA",
 		"nome": "FRANCISCO ARIOSTO HOLANDA",
-		"id": 74103,
+		"id":74103,
 		"partido": "PDT"
 	}, {
 		"uf": "SP",
@@ -356,7 +356,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73433.jpg",
 		"nomeParlamentar": "ARLINDO CHINAGLIA",
 		"nome": "ARLINDO CHIGNALIA JUNIOR",
-		"id": 73433,
+		"id":73433,
 		"partido": "PT"
 	}, {
 		"uf": "SP",
@@ -364,7 +364,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73434.jpg",
 		"nomeParlamentar": "ARNALDO FARIA DE SÁ",
 		"nome": "ARNALDO FARIA DE SÁ",
-		"id": 73434,
+		"id":73434,
 		"partido": "PTB"
 	}, {
 		"uf": "PA",
@@ -372,7 +372,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/160602.jpg",
 		"nomeParlamentar": "ARNALDO JORDY",
 		"nome": "ARNALDO JORDY FIGUEIREDO",
-		"id": 160602,
+		"id":160602,
 		"partido": "PPS"
 	}, {
 		"uf": "RJ",
@@ -380,7 +380,7 @@ export const BASE_PARLAMENTARES =  [{
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/74833.jpg",
 		"nomeParlamentar": "AROLDE DE OLIVEIRA",
 		"nome": "AROLDE DE OLIVEIRA",
-		"id": 74833,
+		"id":74833,
 		"partido": "PSC"
 	}, {
 		"uf": "AL",
