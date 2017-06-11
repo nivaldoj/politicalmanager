@@ -11,6 +11,7 @@ export class FirebaseService {
 
   listaPontuacao: FirebaseListObservable<any[]>;
   listaIbis: FirebaseListObservable<any[]>;
+  politicosJaSalvos:  FirebaseListObservable<any[]>;
  // registroPontuacao: FirebaseObjectObservable<any>;
 
 /*  constructor(public afAuth: AngularFireAuth, public db: AngularFireDatabase) {
@@ -26,13 +27,20 @@ export class FirebaseService {
   constructor(public afAuth: AngularFireAuth, public af: AngularFireDatabase) {
     this.listaPontuacao = af.list('/pontuacao', {
       query: {
-        limitToLast: 50
+        limitToLast: 50,
+
       }
     });
 
      this.listaIbis = af.list('/ibis', {
       query: {
-        limitToLast: 50
+        limitToLast: 200
+      }
+    });
+
+      this.politicosJaSalvos = af.list('/ibis', {
+      query: {
+        limitToLast: 200
       }
     });
   }
@@ -46,10 +54,26 @@ export class FirebaseService {
       return this.listaIbis;
   }
 
+  getListaPoliticosJaSalvos(){
+
+      this.politicosJaSalvos = this.af.list('/ibis', {
+      query: {
+        limitToLast: 200
+      }
+    });
+
+    return this.politicosJaSalvos;
+  }
 
 
-  inserir(registroPontuacao) {
+
+  inserirPontuacaoUsuario(registroPontuacao) {
     return this.listaPontuacao.push(registroPontuacao);
+
+  }
+
+  inserirPontuacaoPolitico(politico) {
+    return this.listaIbis.push(politico);
 
   }
 

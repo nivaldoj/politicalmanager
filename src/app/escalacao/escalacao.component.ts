@@ -58,11 +58,6 @@ export class EscalacaoComponent implements OnInit {
 
 
 
-    this.quantDeputados = 3;
-    this.quantSenadores = 2;
-
-
-
   }
 
   selecionarParlamentar(parlamentar: Parlamentar) {
@@ -92,23 +87,23 @@ export class EscalacaoComponent implements OnInit {
   onChangeFormacao() {
     if (this.selectFormacao === "4-1") {
       this.imagemCampo = "assets/img/campo41.gif"
-      this.quantDeputados = 4;
-      this.quantSenadores = 1;
+     // this.quantDeputados = 4;
+     // this.quantSenadores = 1;
     }
     else if (this.selectFormacao === "1-4") {
       this.imagemCampo = "assets/img/campo14.gif"
-      this.quantDeputados = 4;
-      this.quantSenadores = 1;
+      //this.quantDeputados = 4;
+      //this.quantSenadores = 1;
     }
     else if (this.selectFormacao === "2-3") {
       this.imagemCampo = "assets/img/campo23.gif";
-      this.quantDeputados = 2;
-      this.quantSenadores = 3;
+      //this.quantDeputados = 2;
+     // this.quantSenadores = 3;
     }
     else if (this.selectFormacao === "3-2") {
       this.imagemCampo = "assets/img/campo32.gif";
-      this.quantDeputados = 3;
-      this.quantSenadores = 2;
+     // this.quantDeputados = 3;
+     // this.quantSenadores = 2;
     }
   }
 
@@ -183,15 +178,17 @@ export class EscalacaoComponent implements OnInit {
 
   confirmarEscalacao() {
     this.router.navigate(['/pontuacao']);
-    let dataHora = new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString();
+ /*   let dataHora = new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString();
 
     let registroPontuacao = {
       foto: this.usuarioLogado.foto,
       nome: this.usuarioLogado.nome,
       pontuacao: 10,
       data: dataHora
-    }
-    this.firebaseService.inserir(registroPontuacao);
+    }*/
+
+     sessionStorage['timeEscalado'] = JSON.stringify(this.time);
+    //this.firebaseService.inserir(registroPontuacao);
   }
 
 

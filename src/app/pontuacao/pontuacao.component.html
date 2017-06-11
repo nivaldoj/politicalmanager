@@ -1,3 +1,50 @@
-<p>
-  pontuacao works!
-</p>
+<pm-menu *ngIf="usuarioLogado"></pm-menu>
+
+
+<h1>Resultado do Seu Time!</h1>
+<section class="content">
+
+  <div class="row">
+    <div class="col-lg-2 col-xs-6" *ngFor="let politicoDotime of politicosDoTime">
+
+      <div class="small-box" style="background-color:#448AA5; color:white">
+        <div class="inner">
+          <p>Nome: {{politicoDotime.nome}}</p>
+          <p>Gastos:{{politicoDotime.ptsGastos}} pts</p>
+          <p>Discurso:{{politicoDotime.ptsDiscurso}} pts</p>
+          <p>Total:{{politicoDotime.pontuacaoTotal}} pts</p>
+          <small>Partido: {{politicoDotime.partido}}</small>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+
+  <div>
+
+
+
+    <div class="small-box " style="background-color:#448AA5; color:white">
+      <div class="inner">
+        <p>Nome: {{registroPontuacao.nome}}</p>
+        <p>Pontuação (Time):{{registroPontuacao.pontuacao}} pontos</p>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+</section>

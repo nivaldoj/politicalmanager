@@ -1,4 +1,4 @@
-  <pm-menu *ngIf="usuarioLogado"></pm-menu>
+<pm-menu *ngIf="usuarioLogado"></pm-menu>
 
 
 <table>
@@ -52,70 +52,73 @@
       </table>
 
 
-      <div *ngIf="selectFormacao == '3-2'">
-        <div style="position:absolute; top: 368px; left: 130px;" *ngIf="time[0]" class="imgParlamentarEscalado">
+
+
+
+<div *ngIf="selectFormacao == '3-2'">
+        <div style="position:absolute; top: 440px; left: 130px;" *ngIf="time[0]" class="imgParlamentarEscalado">
           <img src="{{time[0].foto}}" width="50px;" height="50px;" class="redondo" alt="alternative text" (click)="removerParlamentar(time[0])"/>
         </div>
 
-        <div style="position:absolute; top: 412px; left: 275px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
+        <div style="position:absolute; top: 482px; left: 271px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
           <img src="{{time[1].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 365px; left: 415px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
+        <div style="position:absolute; top: 445px; left: 412px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
           <img src="{{time[2].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 162px; left: 184px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
+        <div style="position:absolute; top: 240px; left: 184px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
           <img src="{{time[3].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 162px; left: 350px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
+        <div style="position:absolute; top: 240px; left: 350px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
           <img src="{{time[4].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
       </div>
 
       <div *ngIf="selectFormacao == '2-3'">
-        <div style="position:absolute; top: 405px; left: 200px;" *ngIf="time[0]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[0])">
+        <div style="position:absolute; top: 490px; left: 200px;" *ngIf="time[0]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[0])">
           <img src="{{time[0].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 405px; left: 350px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
+        <div style="position:absolute; top: 490px; left: 350px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
           <img src="{{time[1].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 215px; left: 153px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
+        <div style="position:absolute; top: 305px; left: 145px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
           <img src="{{time[2].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 150px; left: 277px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
+        <div style="position:absolute; top: 225px; left: 270px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
           <img src="{{time[3].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 215px; left: 408px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
+        <div style="position:absolute; top: 305px; left: 395px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
           <img src="{{time[4].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
       </div>
 
       <div *ngIf="selectFormacao == '1-4'">
-        <div style="position:absolute; top: 392px; left: 279px;" *ngIf="time[0]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[0])">
+        <div style="position:absolute; top: 480px; left: 275px;" *ngIf="time[0]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[0])">
           <img src="{{time[0].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 218px; left: 148px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
+        <div style="position:absolute; top: 298px; left: 148px;" *ngIf="time[1]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[1])">
           <img src="{{time[1].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 145px; left: 203px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
+        <div style="position:absolute; top: 225px; left: 203px;" *ngIf="time[2]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[2])">
           <img src="{{time[2].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 145px; left: 350px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
+        <div style="position:absolute; top: 225px; left: 350px;" *ngIf="time[3]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[3])">
           <img src="{{time[3].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 218px; left: 400px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
+        <div style="position:absolute; top: 298px; left: 400px;" *ngIf="time[4]" class="imgParlamentarEscalado" (click)="removerParlamentar(time[4])">
           <img src="{{time[4].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
@@ -123,32 +126,31 @@
 
 
       <div *ngIf="selectFormacao == '4-1'">
-        <div style="position:absolute; top: 332px; left: 130px;" *ngIf="time[0]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[0])">
+        <div style="position:absolute; top: 412px; left: 130px;" *ngIf="time[0]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[0])">
           <img src="{{time[0].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 415px; left: 220px;" *ngIf="time[1]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[1])">
+        <div style="position:absolute; top: 495px; left: 220px;" *ngIf="time[1]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[1])">
           <img src="{{time[1].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 415px; left: 325px;" *ngIf="time[2]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[2])">
+        <div style="position:absolute; top: 495px; left: 325px;" *ngIf="time[2]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[2])">
           <img src="{{time[2].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 332px; left: 405px;" *ngIf="time[3]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[3])">
+        <div style="position:absolute; top: 412px; left: 405px;" *ngIf="time[3]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[3])">
           <img src="{{time[3].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
-        <div style="position:absolute; top: 178px; left: 275px;" *ngIf="time[4]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[4])">
+        <div style="position:absolute; top: 258px; left: 275px;" *ngIf="time[4]" class="imgParlamentarEscalado" title="Remover" (click)="removerParlamentar(time[4])">
           <img src="{{time[4].foto}}" width="50px;" height="50px;" class="redondo" />
         </div>
 
       </div>
 
+
+
+
     </td>
   </tr>
 </table>
-
-
-
-

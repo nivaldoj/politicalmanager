@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from "app/servico/firebase.service";
-import { UsuarioLogado } from "app/shared/usuarioLogado";
+import { UsuarioLogado } from 'app/shared/usuarioLogado';
 
 @Component({
   selector: 'pm-ibis',
@@ -27,7 +27,7 @@ export class IbisComponent implements OnInit {
 
     this.firebaseService.getListingsIbis().subscribe(listaIbis => {
       // console.log(listaPontuacao);
-      this.listaIbis = listaIbis;
+      this.listaIbis = listaIbis.sort( function(a, b) { return a.pontuacaoTotal-b.pontuacaoTotal }).slice(0,5);
       // this.listaPontuacao = this.listaPontuacao.slice
     });
 

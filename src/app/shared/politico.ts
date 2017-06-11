@@ -1,8 +1,11 @@
-export class Parlamentar {
+export class Politico {
   constructor(
-    public id: number,
-    public nome: string,
-    public foto: string,
-    public pontos: string
-  ){}
+    public id: string,
+    public tipo: string,
+    public ptsGastos: string,
+    public ptsDiscurso: string,
+    public nome?: string,
+    public foto?: string,
+    public pontuacaoTotal?: string
+  ) { }
 }
