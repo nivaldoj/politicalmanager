@@ -10,6 +10,7 @@ export class FirebaseService {
 
 
   listaPontuacao: FirebaseListObservable<any[]>;
+  listaIbis: FirebaseListObservable<any[]>;
  // registroPontuacao: FirebaseObjectObservable<any>;
 
 /*  constructor(public afAuth: AngularFireAuth, public db: AngularFireDatabase) {
@@ -28,11 +29,21 @@ export class FirebaseService {
         limitToLast: 50
       }
     });
+
+     this.listaIbis = af.list('/ibis', {
+      query: {
+        limitToLast: 50
+      }
+    });
   }
 
   getListings() {
     return this.listaPontuacao;
 
+  }
+
+  getListingsIbis(){
+      return this.listaIbis;
   }
 
 

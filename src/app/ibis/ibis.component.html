@@ -1,0 +1,10 @@
+  <pm-menu *ngIf="usuarioLogado"></pm-menu>
+
+<h1>Ranking - TOP 10 Políticos do Ibís</h1>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let registroPontuacao of listaIbis, let i = index">
+
+    <div class="rankingFonte">
+     <img src="{{registroPontuacao.foto}}" width="40" height="40"/> {{registroPontuacao.nome}} - {{registroPontuacao.pontuacao}}
+    </div>
+</ul>

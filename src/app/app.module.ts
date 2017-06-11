@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { FirebaseService } from "app/servico/firebase.service";
 import { RankingComponent } from "app/ranking/ranking.component";
 import { MenuComponent } from './menu/menu.component';
+import { IbisComponent } from './ibis/ibis.component';
 
 
 
@@ -45,7 +46,8 @@ export const firebaseConfig = {
     PontuacaoComponent,
     RankingComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    IbisComponent
   ],
   imports: [
     BrowserModule,
