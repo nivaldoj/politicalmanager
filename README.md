@@ -12,7 +12,10 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 - Baixe o projeto no github: https://github.com/thyagomaia/politicalmanager.git;
 - Instale o node.js: https://nodejs.org/en/download/;
-- Acesse a pasta da app e execute o comando npm install;
+- Acesse a pasta da app e execute o comando: npm install;
+- Em seguida, execute o comando: npm uninstall firebase angularfire2 --save;
+- Em seguida, execute o comando: npm install firebase angularfire2 --save;
+- Em seguida, execute o comando: npm install promise-polyfill --save-exact;
 - Em seguida, execute o comando npm start;
 - Por fim, acesse: http://localhost:4200/
 
