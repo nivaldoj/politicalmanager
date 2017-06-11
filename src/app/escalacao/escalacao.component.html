@@ -8,10 +8,10 @@
     </td>
 
 
-    <td>
+    <td valign="top">
 
       <form>
-        <p>Formação:
+        <p>Formação (DEPUTADOS - SENADORES):
           <select [(ngModel)]="selectFormacao" name="selectFormacao" (ngModelChange)="onChangeFormacao($event)">
       <option *ngFor="let formacao of formacoes" [ngValue]="formacao">{{formacao}}</option>
     </select>
