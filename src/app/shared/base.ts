@@ -110,7 +110,7 @@ export const BASE_PARLAMENTARES =  [{
 		"nome": "JOSÉ ALBERTO OLIVEIRA VELOSO FILHO",
 		"id": 160582,
 		"partido": "PMDB"
-	}/*, {
+	}, {
 		"uf": "DF",
 		"tipo": "DEPUTADO",
 		"foto": "http://www.camara.gov.br/internet/deputado/bandep/73579.jpg",
@@ -4746,4 +4746,4 @@ export const BASE_PARLAMENTARES =  [{
 		"nome": "ÂNGELA PORTELA",
 		"id": 4697,
 		"partido": "PDT"
-	} */];
+	} ];

@@ -16,6 +16,9 @@ import { UsuarioLogado } from "app/shared/usuarioLogado";
 export class HomeComponent implements OnInit {
 
 
+
+
+
   user: Observable<firebase.User>;
   usuarioGmail: any;
   usuarioLogado: UsuarioLogado;

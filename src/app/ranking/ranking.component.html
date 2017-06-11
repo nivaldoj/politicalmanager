@@ -1,4 +1,6 @@
-<h1>Ranking - TOP 10</h1>
+  <pm-menu *ngIf="usuarioLogado"></pm-menu>
+
+<h1>Ranking - TOP 10 Usuários</h1>
 <ul class="list-group">
   <li class="list-group-item" *ngFor="let registroPontuacao of listaPontuacao, let i = index">
 

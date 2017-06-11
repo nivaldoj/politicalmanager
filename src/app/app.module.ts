@@ -16,6 +16,7 @@ import * as firebase from 'firebase/app';
 import { HomeComponent } from './home/home.component';
 import { FirebaseService } from "app/servico/firebase.service";
 import { RankingComponent } from "app/ranking/ranking.component";
+import { MenuComponent } from './menu/menu.component';
 
 
 
@@ -43,7 +44,8 @@ export const firebaseConfig = {
     EscalacaoComponent,
     PontuacaoComponent,
     RankingComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

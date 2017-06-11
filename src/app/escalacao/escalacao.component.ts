@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Parlamentar } from "app/shared/parlamentar";
 import { BASE_PARLAMENTARES } from "app/shared/base";
 import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router';
 import { UsuarioLogado } from "app/shared/usuarioLogado";
 import { FirebaseService } from "app/servico/firebase.service";
 
@@ -21,7 +21,7 @@ export class EscalacaoComponent implements OnInit {
   tipos: string[];
   partidos: string[];
   ufs: string[];
-  selectUF: string = '';
+  selectUF: string = 'PB';
   selectFormacao: string;
   formacoes: string[];
   imagemCampo: string;
@@ -46,15 +46,17 @@ export class EscalacaoComponent implements OnInit {
     this.imagemCampo = "assets/img/campo32.gif";
 
 
-    //  this.parlamentares = this.parlamentares.sort(function (a, b) {
-    //  return parseFloat(b.nomeParlamentar) - parseFloat(a.nomeParlamentar);
-    // });
+
 
 
     this.parlamentaresFiltro = this.parlamentares.filter(
       parlamentar => parlamentar.tipo === this.selectTipoParlamentar);
 
-    this.time.push(this.parlamentaresFiltro[0]);
+    if (this.selectUF !== '') {
+      this.parlamentaresFiltro = this.parlamentaresFiltro.filter(parlamentar => parlamentar.uf === this.selectUF);
+    }
+
+
 
     this.quantDeputados = 3;
     this.quantSenadores = 2;
@@ -75,11 +77,15 @@ export class EscalacaoComponent implements OnInit {
 
   ngOnInit() {
 
-     if (sessionStorage['usuarioLogado']) {
-			//this.usuarioLogado = sessionStorage['usuarioLogado'];
+    if (sessionStorage['usuarioLogado']) {
+      //this.usuarioLogado = sessionStorage['usuarioLogado'];
       this.usuarioLogado = JSON.parse(sessionStorage['usuarioLogado']);
       console.log(this.usuarioLogado.nome);
-		}
+    }
+
+    this.time = [];
+
+
 
   }
 
@@ -177,7 +183,7 @@ export class EscalacaoComponent implements OnInit {
 
   confirmarEscalacao() {
     this.router.navigate(['/pontuacao']);
-     let dataHora = new Date().toLocaleDateString() + ' '  + new Date().toLocaleTimeString();
+    let dataHora = new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString();
 
     let registroPontuacao = {
       foto: this.usuarioLogado.foto,
@@ -188,10 +194,7 @@ export class EscalacaoComponent implements OnInit {
     this.firebaseService.inserir(registroPontuacao);
   }
 
-  logout() {
-    delete sessionStorage['usuarioLogado'];
-     this.router.navigate(['/']);
-  }
+
 
 
 
