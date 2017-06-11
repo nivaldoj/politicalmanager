@@ -3,6 +3,8 @@ import { Parlamentar } from "app/shared/parlamentar";
 import { BASE_PARLAMENTARES } from "app/shared/base";
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router'
+import { UsuarioLogado } from "app/shared/usuarioLogado";
+import { FirebaseService } from "app/servico/firebase.service";
 
 @Component({
   selector: 'pm-escalacao',
@@ -25,9 +27,10 @@ export class EscalacaoComponent implements OnInit {
   imagemCampo: string;
   quantDeputados: number;
   quantSenadores: number;
+  usuarioLogado: UsuarioLogado;
 
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public firebaseService: FirebaseService) {
 
     this.parlamentares = BASE_PARLAMENTARES;
 
@@ -40,7 +43,7 @@ export class EscalacaoComponent implements OnInit {
     this.formacoes = ['4-1', '1-4', '2-3', '3-2'];
 
     this.selectFormacao = this.formacoes[3];
-    this.imagemCampo = "assets/img/campo32.gif"
+    this.imagemCampo = "assets/img/campo32.gif";
 
 
     //  this.parlamentares = this.parlamentares.sort(function (a, b) {
@@ -56,6 +59,8 @@ export class EscalacaoComponent implements OnInit {
     this.quantDeputados = 3;
     this.quantSenadores = 2;
 
+
+
   }
 
   selecionarParlamentar(parlamentar: Parlamentar) {
@@ -69,6 +74,12 @@ export class EscalacaoComponent implements OnInit {
   }
 
   ngOnInit() {
+
+     if (sessionStorage['usuarioLogado']) {
+			//this.usuarioLogado = sessionStorage['usuarioLogado'];
+      this.usuarioLogado = JSON.parse(sessionStorage['usuarioLogado']);
+      console.log(this.usuarioLogado.nome);
+		}
 
   }
 
@@ -166,6 +177,20 @@ export class EscalacaoComponent implements OnInit {
 
   confirmarEscalacao() {
     this.router.navigate(['/pontuacao']);
+     let dataHora = new Date().toLocaleDateString() + ' '  + new Date().toLocaleTimeString();
+
+    let registroPontuacao = {
+      foto: this.usuarioLogado.foto,
+      nome: this.usuarioLogado.nome,
+      pontuacao: 10,
+      data: dataHora
+    }
+    this.firebaseService.inserir(registroPontuacao);
+  }
+
+  logout() {
+    delete sessionStorage['usuarioLogado'];
+     this.router.navigate(['/']);
   }
 
 

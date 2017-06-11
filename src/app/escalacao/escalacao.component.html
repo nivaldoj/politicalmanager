@@ -1,5 +1,8 @@
-<p>
-  Escale seu time
+<p style="margin-top:20px;font-size:16px;color:3C8DBC !important;">
+  Olá {{usuarioLogado.nome}}, escalar seu Time
+
+
+  <a *ngIf="usuarioLogado" (click)="logout()" style="text-align:right;float:right;" href="#"><img src="assets/img/logout.png" width="24" height="24" /></a>
 </p>
 
 <table>
@@ -148,3 +151,7 @@
     </td>
   </tr>
 </table>
+
+<div class="col-md-3">
+	<app-ranking></app-ranking>
+</div>
