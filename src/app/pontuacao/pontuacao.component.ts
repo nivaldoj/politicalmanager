@@ -60,10 +60,10 @@ export class PontuacaoComponent implements OnInit {
         console.log(this.basePoliticosPontuacao[i].id);
         if ((this.time[k].id + '') === this.basePoliticosPontuacao[i].id.trim()) {
           // console.log(this.basePoliticosPontuacao[i].id);
-          console.log("achou" + this.time[k].nome);
+          //console.log("achou" + this.time[k].nome);
           //  if (this.basePoliticosPontuacao[i].ptsDiscurso != undefined && this.basePoliticosPontuacao[i].ptsGastos != undefined) {
           pontuacaoTotalParlamentar = Number(this.basePoliticosPontuacao[i].ptsDiscurso) +
-            Number(this.basePoliticosPontuacao[i].ptsGastos);
+            Number(this.basePoliticosPontuacao[i].ptsGastos) + Number(this.basePoliticosPontuacao[i].ptsVotacao) ;
 
           pontuacaoTotalUsuario = pontuacaoTotalUsuario + pontuacaoTotalParlamentar;
 
@@ -72,6 +72,7 @@ export class PontuacaoComponent implements OnInit {
             tipo: this.time[k].tipo,
             ptsGastos: this.basePoliticosPontuacao[i].ptsGastos,
             ptsDiscurso: this.basePoliticosPontuacao[i].ptsDiscurso,
+            ptsVotacao: this.basePoliticosPontuacao[i].ptsVotacao,
             nome: this.time[k].nomeParlamentar,
             foto: this.time[k].foto,
             partido: this.time[k].partido,
