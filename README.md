@@ -18,7 +18,7 @@ Para que a avaliação dos parlamentares seja possível, o game conta com o aces
 
 Escaladas as equipes, o aplicativo pode então atribuir pontos para cada parlamentar e para o time que o integra. A referida pontuação é então atribuída ao jogador do game, que irá compor um ranking geral. Vence o jogador que tiver a maior pontuação dentre todos os jogadores. Além disso, baseada na escalação de todos os times, o aplicativo define um selecionado de parlamentares, isto é, o time com os parlamentares mais escalados, e o Íbis FC, que é o time formado pelos parlamentares menos escalados. De forma indireta, o game, com o Íbis FC, irá identificar os parlamentares menos atuantes nas assembleias legislativas e os mais custosos para os cofres públicos.
 
-O usuário que deseja estar sempre nas primeiras colocações precisará estar acompanhando constantemente a pontuação de cada parlamentar, fazendo com que o mesmo, de forma indireta, fiscalize deputados e senadores diariamente. Além disso, o aplicativo possibilitará o engajamento na política em crianças e jovens, dada a proposta gamificada do projeto.
+O usuário que deseja estar sempre nas primeiras colocações precisará estar acompanhando constantemente a pontuação de cada parlamentar, fazendo com que o mesmo, de forma indireta, fiscalize deputados e senadores diariamente. Além disso, o aplicativo possibilitará o engajamento de crianças e jovens na política, dada a proposta gamificada do projeto.
 
 Com tudo o que foi exposto, o Political Manager tem um grande potencial para fazer com que todos os cidadãos possam fiscalizar e avaliar os parlamentares que integram as assembleias legislativas de forma lúdica e competitiva. Esse é o Political Manager!
 
