@@ -1,4 +1,6 @@
-![alt text](https://github.com/thyagomaia/politicalmanager/blob/master/boneco.giflogomarca.gif)
+<p align="center">
+  <img src="https://github.com/thyagomaia/politicalmanager/blob/master/boneco.giflogomarca.gif"/>
+</p>
 
 # Political Manager
 
