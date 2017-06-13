@@ -42,3 +42,7 @@ Com tudo o que foi exposto, o Political Manager tem um grande potencial para faz
 - Emerson Diego (diegowebby@gmail.com);
 - David Gaudêncio (davidgf_jp@hotmail.com);
 - Mykael Maia (mykaelmaia69@gmail.com);
+
+## Apresentação do Projeto
+
+https://www.dropbox.com/s/4l1314awjqn8p9t/politicalmanager.pdf?dl=0
